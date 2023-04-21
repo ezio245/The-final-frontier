@@ -1,0 +1,257 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes shadow-inset-center {
+  0% {
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: inset 0 0 14px 0 rgb(0 0 0/50%);
+  }
+}
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes jello-horizontal {
+  0%,
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+}
+.container,
+.group-child1 {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 1440px;
+  height: 1024px;
+}
+.group-child1 {
+  top: 0;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-black);
+  width: 1447.69px;
+  height: 130px;
+  opacity: 0;
+}
+.group-child1.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.group-child1:hover {
+  background-color: var(--color-mediumblue-100);
+  animation: 1s ease 0s infinite normal none shadow-inset-center;
+  opacity: 1;
+}
+.login {
+  text-decoration: none;
+  position: absolute;
+  top: 43px;
+  left: 1267px;
+  color: inherit;
+  display: inline-block;
+  width: 129px;
+  height: 30px;
+}
+.rectangle-parent1 {
+  top: 0;
+  width: 1447.69px;
+  height: 130px;
+}
+.frame,
+.logo-2-icon,
+.rectangle-parent1 {
+  position: absolute;
+  left: 0;
+}
+.frame {
+  top: 99px;
+  background-color: var(--color-gray-300);
+  width: 1440px;
+  height: 1px;
+}
+.logo-2-icon {
+  top: 0;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+}
+.the-final-frontier5 {
+  position: absolute;
+  top: 21px;
+  left: 161px;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  width: 275px;
+}
+.signup-child {
+  position: absolute;
+  top: 245px;
+  left: 413px;
+  border-radius: var(--br-6xl);
+  background-color: rgba(1, 2, 13, 0.37);
+  width: 592px;
+  height: 396px;
+  mix-blend-mode: hard-light;
+  opacity: 1;
+}
+.signup-child.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+.signup-child:hover {
+  mix-blend-mode: normal;
+  background-color: rgba(15, 15, 15, 0.81);
+}
+.create-user-name,
+.signup1 {
+  position: absolute;
+  font-family: var(--font-poppins);
+  display: inline-block;
+}
+.signup1 {
+  top: 246px;
+  left: 639px;
+  font-size: var(--font-size-13xl);
+  width: 162px;
+  height: 40px;
+}
+.create-user-name {
+  top: 312px;
+  left: 440px;
+  color: #f8f8f8;
+  width: 313px;
+  height: 45px;
+}
+.signup-item {
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.86);
+  position: absolute;
+  top: 370px;
+  left: 562px;
+  border-radius: 24px;
+  width: 293px;
+  height: 44px;
+  mix-blend-mode: normal;
+}
+.signup-item:hover {
+  background-color: rgba(40, 17, 216, 0.86);
+}
+.signup-item:active {
+  animation: 2s ease 0s 1 normal none shadow-inset-center;
+  opacity: 1;
+}
+.create-password {
+  position: absolute;
+  top: 421px;
+  left: 440px;
+  font-family: var(--font-poppins);
+  color: #e8e9f0;
+  display: inline-block;
+  width: 313px;
+  height: 45px;
+}
+.signup-inner {
+  border: 0;
+  background-color: #ececec;
+  position: absolute;
+  top: 466px;
+  left: 562px;
+  border-radius: var(--br-6xl);
+  width: 293px;
+  height: 45px;
+  mix-blend-mode: normal;
+}
+.signup-inner:hover {
+  background-color: #3232d8;
+}
+.rectangle-input {
+  cursor: pointer;
+  position: absolute;
+  top: 541px;
+  left: 542px;
+  background-color: var(--color-gainsboro);
+  width: 20px;
+  height: 19px;
+}
+.agree-terms-and {
+  position: absolute;
+  top: 532px;
+  left: 597px;
+  display: inline-block;
+  width: 261px;
+  height: 37px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: #421cda;
+  width: 192px;
+  height: 51px;
+}
+.signup2 {
+  position: absolute;
+  top: 9px;
+  left: 50px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: rgba(255, 246, 246, 0.99);
+  text-align: left;
+  display: inline-block;
+  width: 124px;
+  height: 33px;
+}
+.group-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 590px;
+  left: 597px;
+  width: 192px;
+  height: 51px;
+}
+.group-button:active {
+  animation: 2s ease 0s 1 normal none jello-horizontal;
+  opacity: 1;
+}
+.signup {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

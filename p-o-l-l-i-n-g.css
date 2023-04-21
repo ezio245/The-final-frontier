@@ -1,0 +1,116 @@
+@keyframes shadow-inset-center {
+  0% {
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: inset 0 0 14px 0 rgb(0 0 0/50%);
+  }
+}
+.image-2-icon {
+  position: absolute;
+  top: 160px;
+  left: 0;
+  width: 1457px;
+  height: 1822px;
+  object-fit: cover;
+}
+.polls1 {
+  margin: 0;
+}
+.polls {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 335px;
+  left: 222px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.polling-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  width: 1440px;
+  height: 160px;
+}
+.polling-child:hover {
+  mix-blend-mode: normal;
+  background-color: var(--color-midnightblue);
+  animation: 3s ease 0s 1 normal none shadow-inset-center;
+  opacity: 1;
+}
+.the-final-frontier9 {
+  position: absolute;
+  top: 27px;
+  left: 162px;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-kyivtype-sans);
+  display: inline-block;
+  width: 269px;
+  height: 84px;
+}
+.logo-1-icon8 {
+  position: absolute;
+  top: 27px;
+  left: 27px;
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+}
+.timeline4 {
+  text-decoration: none;
+  position: absolute;
+  top: 62px;
+  left: 870px;
+  color: inherit;
+  display: inline-block;
+  width: 119px;
+  height: 36px;
+  cursor: pointer;
+}
+.resources8 {
+  top: 63px;
+  left: 1036px;
+  font-size: var(--font-size-5xl);
+  width: 152px;
+  height: 49px;
+}
+.chat-bot8,
+.home7,
+.resources8 {
+  text-decoration: none;
+  position: absolute;
+  color: inherit;
+  display: inline-block;
+}
+.chat-bot8 {
+  top: 63px;
+  left: 1235px;
+  font-size: var(--font-size-5xl);
+  width: 126px;
+  height: 21px;
+}
+.home7 {
+  top: 66px;
+  left: 750px;
+  width: 120px;
+  height: 32px;
+}
+.polling {
+  position: relative;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

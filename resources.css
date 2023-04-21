@@ -1,0 +1,236 @@
+@keyframes shadow-inset-center {
+  0% {
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: inset 0 0 14px 0 rgb(0 0 0/50%);
+  }
+}
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+.resources-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-black);
+  width: 1440px;
+  height: 160px;
+}
+.resources-child:hover {
+  mix-blend-mode: normal;
+  background-color: var(--color-midnightblue);
+  animation: 3s ease 0s 1 normal none shadow-inset-center;
+  opacity: 1;
+}
+.the-final-frontier10 {
+  position: absolute;
+  top: 19px;
+  left: 186px;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-kyivtype-sans);
+  display: inline-block;
+  width: 269px;
+  height: 84px;
+}
+.logo-1-icon9 {
+  position: absolute;
+  top: 19px;
+  left: 51px;
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+}
+.chat-bot9,
+.timeline5 {
+  text-decoration: none;
+  position: absolute;
+  color: inherit;
+  display: inline-block;
+}
+.timeline5 {
+  top: 61px;
+  left: 1103px;
+  font-size: var(--font-size-6xl);
+  width: 119px;
+  height: 36px;
+  cursor: pointer;
+}
+.chat-bot9 {
+  top: 64px;
+  left: 1257px;
+  width: 126px;
+  height: 15px;
+}
+.image-1-icon {
+  position: absolute;
+  top: 152px;
+  left: 0;
+  width: 1440px;
+  height: 880px;
+  object-fit: cover;
+}
+.a63a049c725d638704c7eb8fc5fc5-icon {
+  position: absolute;
+  top: 225px;
+  left: 69px;
+  width: 386px;
+  height: 229px;
+  object-fit: cover;
+}
+.a63a049c725d638704c7eb8fc5fc5-icon:hover {
+  animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.resources10 {
+  position: absolute;
+  top: 225px;
+  left: 69px;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  width: 205px;
+  height: 51px;
+}
+.resources-item {
+  position: absolute;
+  top: 328px;
+  left: 36px;
+  background-color: var(--color-gainsboro);
+  width: 407px;
+  height: 231px;
+}
+.home8 {
+  text-decoration: none;
+  position: absolute;
+  top: calc(50% - 451px);
+  left: calc(50% + 259px);
+  color: inherit;
+  display: none;
+  width: 146px;
+  height: 34px;
+}
+.resources-inner {
+  position: absolute;
+  top: 332px;
+  left: 541px;
+  background-color: var(--color-gainsboro);
+  width: 421px;
+  height: 216px;
+  cursor: pointer;
+}
+.resources-child1 {
+  position: absolute;
+  top: 157px;
+  left: 1080px;
+  background-color: #486a9d;
+  width: 360px;
+  height: 867px;
+}
+.more-resources {
+  position: absolute;
+  top: 184px;
+  left: 1130px;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  width: 269px;
+  height: 67px;
+}
+.games1,
+.moviesseriesapp-suggestions,
+.polls2,
+.quizzes {
+  text-decoration: none;
+  position: absolute;
+  top: 305px;
+  left: 1109px;
+  color: inherit;
+  display: inline-block;
+  width: 248px;
+  height: 54px;
+}
+.games1,
+.moviesseriesapp-suggestions,
+.quizzes {
+  top: 364px;
+  left: 1107px;
+  width: 250px;
+  height: 61px;
+}
+.games1,
+.moviesseriesapp-suggestions {
+  top: 431px;
+  left: 1109px;
+  width: 209px;
+  height: 46px;
+}
+.moviesseriesapp-suggestions {
+  top: 499px;
+  width: 220px;
+  height: 71px;
+}
+.rectangle-iframe,
+.resources-child2 {
+  position: absolute;
+  top: 666px;
+  left: 36px;
+  background-color: var(--color-gainsboro);
+  width: 419px;
+  height: 218px;
+  cursor: pointer;
+}
+.resources-child2 {
+  left: 541px;
+  width: 405px;
+  height: 223px;
+}
+.google-infrared-view {
+  top: 592px;
+  width: 178px;
+  height: 55px;
+  cursor: pointer;
+}
+.d-solar-system,
+.google-infrared-view,
+.home9,
+.vr-of-mars {
+  text-decoration: none;
+  position: absolute;
+  left: 1101px;
+  color: inherit;
+  display: inline-block;
+}
+.vr-of-mars {
+  top: 689px;
+  width: 256px;
+  height: 56px;
+  cursor: pointer;
+}
+.d-solar-system,
+.home9 {
+  top: 775px;
+  width: 253px;
+  height: 47px;
+}
+.home9 {
+  top: 59px;
+  left: 936px;
+  font-size: var(--font-size-6xl);
+  width: 144px;
+  height: 38px;
+}
+.resources9 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

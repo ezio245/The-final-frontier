@@ -1,1 +1,102 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="initial-scale=1, width=device-width"><link rel="stylesheet" href="a-i.2ae5de9b.css"><link rel="stylesheet" href="login.c11476f1.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=KyivType Sans:wght@400&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"></head><body> <div class="login1"> <video class="wrapper4" autoplay muted loop> <source src="cave-45340.63062919.mp4"> </video> <div class="login-inner"> <div class="group-child4" id="login" data-animate-on-scroll></div> </div> <input class="login-child" type="text" placeholder="username" required id="user_name" height="40" width="311"> <div class="password">PASSWORD</div> <input class="login-item" type="password" maxlength="{16}" id="password"> <div class="login2">LOGIN</div> <div class="username">username</div> <div class="username1">USERNAME</div> <div class="rectangle-parent3"> <header class="group-child5" id="top navigator" data-animate-on-scroll></header> <a class="signup3" href="signup.html">signup</a> </div> <input class="login-child1" type="checkbox" required defaultchecked data-animate-on-scroll> <div class="agree-to-our">Agree to our terms and condition</div> <button class="rectangle-button" id="login" form="login" formaction="login"></button> <a class="login3" href="home.html">login</a> <img class="logo-3-icon" alt src="logo-3@2x.25c129a6.png"> <div class="the-final-frontier11">The Final Frontier</div> </div> <script>var scrollAnimElements=document.querySelectorAll("[data-animate-on-scroll]"),observer=new IntersectionObserver((e=>{for(const r of e)if(r.isIntersecting||r.intersectionRatio>0){const e=r.target;e.classList.add("animate"),observer.unobserve(e)}}),{threshold:.15});for(let e=0;e<scrollAnimElements.length;e++)observer.observe(scrollAnimElements[e]);</script> </body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=KyivType Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login1">
+      <video class="wrapper4" autoplay muted loop>
+        <source src="./public/cave-45340.mp4" />
+      </video>
+      <div class="login-inner">
+        <div class="group-child4" id="login" data-animate-on-scroll></div>
+      </div>
+      <input
+        class="login-child"
+        type="text"
+        placeholder="username"
+        required
+        id="user_name"
+        accept
+        height="40"
+        width="311"
+      />
+
+      <div class="password">PASSWORD</div>
+      <input
+        class="login-item"
+        type="password"
+        maxlength="{16}"
+        id="password"
+      />
+
+      <div class="login2">LOGIN</div>
+      <div class="username">username</div>
+      <div class="username1">USERNAME</div>
+      <div class="rectangle-parent3">
+        <header
+          class="group-child5"
+          id="top navigator"
+          data-animate-on-scroll
+        ></header>
+        <a class="signup3" href="./signup.html">signup</a>
+      </div>
+      <input
+        class="login-child1"
+        type="checkbox"
+        required
+        defaultchecked="{true}"
+        data-animate-on-scroll
+      />
+
+      <div class="agree-to-our">Agree to our terms and condition</div>
+      <button
+        class="rectangle-button"
+        id="login"
+        form="login"
+        formaction="login"
+      ></button>
+      <a class="login3" href="./home.html">login</a>
+      <img class="logo-3-icon" alt="" src="./public/logo-3@2x.png" />
+
+      <div class="the-final-frontier11">The Final Frontier</div>
+    </div>
+
+    <script>
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>

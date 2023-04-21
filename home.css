@@ -1,0 +1,122 @@
+.group-child6,
+.wrapper5,
+.wrapper7 {
+  position: absolute;
+  top: 127px;
+  left: 94px;
+  background-color: var(--color-gray-100);
+  width: 1440px;
+  height: 897px;
+}
+.group-child6,
+.wrapper7 {
+  top: 0;
+  background-color: var(--color-gray-300);
+  height: 149px;
+}
+.wrapper7 {
+  top: 135px;
+  left: 27px;
+  background-color: var(--color-gray-100);
+  width: 1620px;
+  height: 900px;
+  cursor: pointer;
+}
+.chat-bot10,
+.timeline6 {
+  text-decoration: none;
+  top: 33px;
+  color: inherit;
+}
+.timeline6 {
+  position: absolute;
+  left: 1064px;
+  font-size: var(--font-size-6xl);
+  display: inline-block;
+  width: 119px;
+  height: 36px;
+  cursor: pointer;
+}
+.chat-bot10 {
+  left: 1350px;
+  width: 126px;
+  height: 21px;
+}
+.chat-bot10,
+.resources11,
+.the-final-frontier12 {
+  position: absolute;
+  display: inline-block;
+}
+.resources11 {
+  text-decoration: none;
+  top: 33px;
+  left: 1198px;
+  color: inherit;
+  width: 152px;
+  height: 49px;
+  cursor: pointer;
+}
+.the-final-frontier12 {
+  top: 4px;
+  left: 247px;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-kyivtype-sans);
+  width: 269px;
+  height: 84px;
+}
+.logo-1-icon10 {
+  position: absolute;
+  top: 4px;
+  left: 130px;
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+}
+.initiate-discover-express {
+  margin: 0;
+}
+.initiate-discover-express-container {
+  position: absolute;
+  top: 315px;
+  left: 394px;
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-poppins);
+  text-align: center;
+  display: inline-block;
+  width: 867px;
+  height: 533px;
+}
+.group-child7 {
+  position: absolute;
+  top: 86px;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 94px;
+  height: 765px;
+}
+.slice-div {
+  position: relative;
+  width: 101px;
+  height: 29px;
+}
+.group-a {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: -94px;
+  width: 1647px;
+  height: 1035px;
+  color: inherit;
+}
+.home10 {
+  position: relative;
+  background-color: #010423;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

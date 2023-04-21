@@ -1,0 +1,109 @@
+.pexels-photo-2666598-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1466px;
+  height: 1082px;
+  object-fit: cover;
+}
+.movie-recommendations {
+  position: absolute;
+  top: 242px;
+  left: 152px;
+  font-family: var(--font-poppins);
+  display: inline-block;
+  width: 475px;
+  height: 60px;
+}
+.interstellar {
+  margin: 0;
+}
+.interstellar-gravity-the-container {
+  position: absolute;
+  top: 338px;
+  left: 152px;
+  font-family: var(--font-poppins);
+  display: inline-block;
+  width: 424px;
+  height: 348px;
+}
+.desktop-2-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-300);
+  width: 1440px;
+  height: 149px;
+}
+.the-final-frontier1 {
+  position: absolute;
+  top: 17px;
+  left: 153px;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  width: 269px;
+  height: 92px;
+}
+.logo-1-icon1 {
+  position: absolute;
+  top: 4px;
+  left: 36px;
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+}
+.home1,
+.resources1 {
+  text-decoration: none;
+  position: absolute;
+  top: 53px;
+  left: 920px;
+  font-size: var(--font-size-5xl);
+  color: inherit;
+  display: inline-block;
+  width: 199px;
+  height: 39px;
+}
+.resources1 {
+  top: 55px;
+  left: 1031px;
+  width: 155px;
+  height: 36px;
+}
+.app-recommendations,
+.chat-bot1,
+.sky-map {
+  position: absolute;
+  top: 240px;
+  left: 767px;
+  display: inline-block;
+  width: 435px;
+  height: 51px;
+}
+.chat-bot1,
+.sky-map {
+  text-decoration: none;
+  top: 338px;
+  left: 783px;
+  color: inherit;
+  width: 419px;
+  height: 53px;
+}
+.chat-bot1 {
+  top: 60px;
+  left: 1245px;
+  font-size: var(--font-size-5xl);
+  width: 130px;
+  height: 31px;
+}
+.desktop-2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-kyivtype-sans);
+}

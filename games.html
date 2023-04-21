@@ -1,1 +1,115 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="initial-scale=1, width=device-width"><link rel="stylesheet" href="a-i.2ae5de9b.css"><link rel="stylesheet" href="games.bd4a4235.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=KyivType Sans:wght@400&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"></head><body> <div class="games"> <div class="games-child"></div> <a class="games-item" href="https://wordwall.net/resource/41768/science/space-memory-game" target="_blank" id="rectangleLink"> </a> <a class="games-inner" href="https://poki.com/en/g/spaceugh" id="rectangleLink1"> </a> <a class="rectangle-a" href="https://spaceplace.nasa.gov/explore-mars/en/" id="rectangleLink2"> </a> <div class="rectangle-group"> <header class="group-item" id="top navigator" data-animate-on-scroll></header> <div class="the-final-frontier2">The Final Frontier</div> <img class="logo-1-icon2" alt src="logo-1@2x.c3855799.png"> </div> <a class="games-child1" href="https://spaceplace.nasa.gov/color-your-universe-game/en/" target="_blank" id="rectangleLink3"> </a> <a class="home2" href="home.html">Home</a> <a class="resources2" href="resources.html">Resources</a> <a class="chat-bot2" href="a-i.html">Chat Bot</a> </div> <script>var rectangleLink=document.getElementById("rectangleLink");rectangleLink&&rectangleLink.addEventListener("click",(function(){window.open("https://wordwall.net/resource/41768/science/space-memory-game")}));var rectangleLink1=document.getElementById("rectangleLink1");rectangleLink1&&rectangleLink1.addEventListener("click",(function(){window.open("https://poki.com/en/g/spaceugh")}));var rectangleLink2=document.getElementById("rectangleLink2");rectangleLink2&&rectangleLink2.addEventListener("click",(function(){window.open("https://spaceplace.nasa.gov/explore-mars/en/")}));var rectangleLink3=document.getElementById("rectangleLink3");rectangleLink3&&rectangleLink3.addEventListener("click",(function(){window.open("https://spaceplace.nasa.gov/color-your-universe-game/en/")}));var scrollAnimElements=document.querySelectorAll("[data-animate-on-scroll]"),observer=new IntersectionObserver((e=>{for(const n of e)if(n.isIntersecting||n.intersectionRatio>0){const e=n.target;e.classList.add("animate"),observer.unobserve(e)}}),{threshold:.15});for(let e=0;e<scrollAnimElements.length;e++)observer.observe(scrollAnimElements[e]);</script> </body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./games.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=KyivType Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="games">
+      <div class="games-child"></div>
+      <a
+        class="games-item"
+        href="https://wordwall.net/resource/41768/science/space-memory-game"
+        target="_blank"
+        id="rectangleLink"
+      >
+      </a>
+      <a
+        class="games-inner"
+        href="https://poki.com/en/g/spaceugh"
+        id="rectangleLink1"
+      >
+      </a>
+      <a
+        class="rectangle-a"
+        href="https://spaceplace.nasa.gov/explore-mars/en/"
+        id="rectangleLink2"
+      >
+      </a>
+      <div class="rectangle-group">
+        <header
+          class="group-item"
+          id="top navigator"
+          data-animate-on-scroll
+        ></header>
+        <div class="the-final-frontier2">The Final Frontier</div>
+        <img class="logo-1-icon2" alt="" src="./public/logo-1@2x.png" />
+      </div>
+      <a
+        class="games-child1"
+        href="https://spaceplace.nasa.gov/color-your-universe-game/en/"
+        target="_blank"
+        id="rectangleLink3"
+      >
+      </a>
+      <a class="home2" href="./home.html">Home</a>
+      <a class="resources2" href="./resources.html">Resources</a>
+      <a class="chat-bot2" href="./a-i.html">Chat Bot</a>
+    </div>
+
+    <script>
+      var rectangleLink = document.getElementById("rectangleLink");
+      if (rectangleLink) {
+        rectangleLink.addEventListener("click", function () {
+          window.open(
+            "https://wordwall.net/resource/41768/science/space-memory-game"
+          );
+        });
+      }
+      
+      var rectangleLink1 = document.getElementById("rectangleLink1");
+      if (rectangleLink1) {
+        rectangleLink1.addEventListener("click", function () {
+          window.open("https://poki.com/en/g/spaceugh");
+        });
+      }
+      
+      var rectangleLink2 = document.getElementById("rectangleLink2");
+      if (rectangleLink2) {
+        rectangleLink2.addEventListener("click", function () {
+          window.open("https://spaceplace.nasa.gov/explore-mars/en/");
+        });
+      }
+      
+      var rectangleLink3 = document.getElementById("rectangleLink3");
+      if (rectangleLink3) {
+        rectangleLink3.addEventListener("click", function () {
+          window.open("https://spaceplace.nasa.gov/color-your-universe-game/en/");
+        });
+      }
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>
